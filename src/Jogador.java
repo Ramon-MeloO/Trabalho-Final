@@ -19,6 +19,7 @@ public class Jogador {
 
     // Método para adicionar pontos
     public void adicionarPontos(int pontos) {
+
         this.pontos += pontos;
     }
 }
