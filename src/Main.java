@@ -11,10 +11,12 @@ public class Main {
 
         // Criando o jogo
         Jogo jogo = new Jogo(jogadores);
-        jogo.exibirTabuleiro(); // Mostrando o tabuleiro (opcional)
+        jogo.exibirTabuleiro();
 
         // Simulação de algumas jogadas
-        jogo.jogada(0, 0, 1, 1, jogador1); // Exemplo de jogada
-        jogo.jogada(0, 1, 1, 0, jogador2); // Exemplo de jogada
+        jogo.jogada(0, 0, 1, 1, jogador1);
+        jogo.jogada(0, 1, 1, 0, jogador2);
+        jogo.jogada(0, 0, 1, 0, jogador3);
+        jogo.jogada(1, 1, 1, 0, jogador4);
     }
 }
